@@ -1,0 +1,95 @@
+{
+  "head": {
+    "counts": {
+      "partyCount": 1,
+      "resultCount": 1
+    },
+    "dateRange": {
+      "start": "",
+      "end": ""
+    },
+    "lang": "mul"
+  },
+  "results": {
+    "house": {
+      "parties": [
+        {
+          "party": {
+            "uri": "https://data.oireachtas.ie/ie/oireachtas/party/dail/33/Aontú",
+            "showAs": "Aontú",
+            "partyCode": "Aontú"
+          }
+        },
+        {
+          "party": {
+            "uri": "https://data.oireachtas.ie/ie/oireachtas/party/dail/33/Fianna_Fáil",
+            "showAs": "Fianna Fáil",
+            "partyCode": "Fianna_Fáil"
+          }
+        },
+        {
+          "party": {
+            "uri": "https://data.oireachtas.ie/ie/oireachtas/party/dail/33/Fine_Gael",
+            "showAs": "Fine Gael",
+            "partyCode": "Fine_Gael"
+          }
+        },
+        {
+          "party": {
+            "uri": "https://data.oireachtas.ie/ie/oireachtas/party/dail/33/Green_Party",
+            "showAs": "Green Party",
+            "partyCode": "Green_Party"
+          }
+        },
+        {
+          "party": {
+            "uri": "https://data.oireachtas.ie/ie/oireachtas/party/dail/33/Independent",
+            "showAs": "Independent",
+            "partyCode": "Independent"
+          }
+        },
+        {
+          "party": {
+            "uri": "https://data.oireachtas.ie/ie/oireachtas/party/dail/33/Independents_4_Change",
+            "showAs": "Independents 4 Change",
+            "partyCode": "Independents_4_Change"
+          }
+        },
+        {
+          "party": {
+            "uri": "https://data.oireachtas.ie/ie/oireachtas/party/dail/33/Labour_Party",
+            "showAs": "Labour Party",
+            "partyCode": "Labour_Party"
+          }
+        },
+        {
+          "party": {
+            "uri": "https://data.oireachtas.ie/ie/oireachtas/party/dail/33/Sinn_Féin",
+            "showAs": "Sinn Féin",
+            "partyCode": "Sinn_Féin"
+          }
+        },
+        {
+          "party": {
+            "uri": "https://data.oireachtas.ie/ie/oireachtas/party/dail/33/Social_Democrats",
+            "showAs": "Social Democrats",
+            "partyCode": "Social_Democrats"
+          }
+        },
+        {
+          "party": {
+            "uri": "https://data.oireachtas.ie/ie/oireachtas/party/dail/33/Solidarity_People_Before_Profit",
+            "showAs": "Solidarity - People Before Profit",
+            "partyCode": "Solidarity_People_Before_Profit"
+          }
+        }
+      ],
+      "house": {
+        "houseNo": "33",
+        "uri": "https://data.oireachtas.ie/ie/oireachtas/house/dail/33",
+        "showAs": "33rd Dáil",
+        "houseCode": "dail"
+      }
+    }
+  }
+}

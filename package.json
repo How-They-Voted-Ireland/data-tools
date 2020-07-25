@@ -1,0 +1,19 @@
+{
+  "name": "data-tools",
+  "version": "1.0.0",
+  "description": "Tools to manage the data for the How They Voted app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/How-They-Voted-Ireland/data-tools.git"
+  },
+  "author": "John Behan <behanj@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/How-They-Voted-Ireland/data-tools/issues"
+  },
+  "homepage": "https://github.com/How-They-Voted-Ireland/data-tools#readme"
+}

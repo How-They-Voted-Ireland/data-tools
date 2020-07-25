@@ -1,0 +1,337 @@
+{
+  "head": {
+    "counts": {
+      "constituencyCount": 1,
+      "resultCount": 1
+    },
+    "dateRange": {
+      "start": "",
+      "end": ""
+    },
+    "lang": "mul"
+  },
+  "results": {
+    "house": {
+      "constituenciesOrPanels": [
+        {
+          "constituencyOrPanel": {
+            "representCode": "Carlow-Kilkenny",
+            "representType": "constituency",
+            "showAs": "Carlow-Kilkenny",
+            "uri": "https://data.oireachtas.ie/ie/oireachtas/house/dail/33/constituency/Carlow-Kilkenny"
+          }
+        },
+        {
+          "constituencyOrPanel": {
+            "representCode": "Cavan-Monaghan",
+            "representType": "constituency",
+            "showAs": "Cavan-Monaghan",
+            "uri": "https://data.oireachtas.ie/ie/oireachtas/house/dail/33/constituency/Cavan-Monaghan"
+          }
+        },
+        {
+          "constituencyOrPanel": {
+            "representCode": "Clare",
+            "representType": "constituency",
+            "showAs": "Clare",
+            "uri": "https://data.oireachtas.ie/ie/oireachtas/house/dail/33/constituency/Clare"
+          }
+        },
+        {
+          "constituencyOrPanel": {
+            "representCode": "Cork-East",
+            "representType": "constituency",
+            "showAs": "Cork East",
+            "uri": "https://data.oireachtas.ie/ie/oireachtas/house/dail/33/constituency/Cork-East"
+          }
+        },
+        {
+          "constituencyOrPanel": {
+            "representCode": "Cork-North-Central",
+            "representType": "constituency",
+            "showAs": "Cork North-Central",
+            "uri": "https://data.oireachtas.ie/ie/oireachtas/house/dail/33/constituency/Cork-North-Central"
+          }
+        },
+        {
+          "constituencyOrPanel": {
+            "representCode": "Cork-North-West",
+            "representType": "constituency",
+            "showAs": "Cork North-West",
+            "uri": "https://data.oireachtas.ie/ie/oireachtas/house/dail/33/constituency/Cork-North-West"
+          }
+        },
+        {
+          "constituencyOrPanel": {
+            "representCode": "Cork-South-Central",
+            "representType": "constituency",
+            "showAs": "Cork South-Central",
+            "uri": "https://data.oireachtas.ie/ie/oireachtas/house/dail/33/constituency/Cork-South-Central"
+          }
+        },
+        {
+          "constituencyOrPanel": {
+            "representCode": "Cork-South-West",
+            "representType": "constituency",
+            "showAs": "Cork South-West",
+            "uri": "https://data.oireachtas.ie/ie/oireachtas/house/dail/33/constituency/Cork-South-West"
+          }
+        },
+        {
+          "constituencyOrPanel": {
+            "representCode": "Donegal",
+            "representType": "constituency",
+            "showAs": "Donegal",
+            "uri": "https://data.oireachtas.ie/ie/oireachtas/house/dail/33/constituency/Donegal"
+          }
+        },
+        {
+          "constituencyOrPanel": {
+            "representCode": "Dublin-Bay-North",
+            "representType": "constituency",
+            "showAs": "Dublin Bay North",
+            "uri": "https://data.oireachtas.ie/ie/oireachtas/house/dail/33/constituency/Dublin-Bay-North"
+          }
+        },
+        {
+          "constituencyOrPanel": {
+            "representCode": "Dublin-Bay-South",
+            "representType": "constituency",
+            "showAs": "Dublin Bay South",
+            "uri": "https://data.oireachtas.ie/ie/oireachtas/house/dail/33/constituency/Dublin-Bay-South"
+          }
+        },
+        {
+          "constituencyOrPanel": {
+            "representCode": "Dublin-Central",
+            "representType": "constituency",
+            "showAs": "Dublin Central",
+            "uri": "https://data.oireachtas.ie/ie/oireachtas/house/dail/33/constituency/Dublin-Central"
+          }
+        },
+        {
+          "constituencyOrPanel": {
+            "representCode": "Dublin-Fingal",
+            "representType": "constituency",
+            "showAs": "Dublin Fingal",
+            "uri": "https://data.oireachtas.ie/ie/oireachtas/house/dail/33/constituency/Dublin-Fingal"
+          }
+        },
+        {
+          "constituencyOrPanel": {
+            "representCode": "Dublin-Mid-West",
+            "representType": "constituency",
+            "showAs": "Dublin Mid-West",
+            "uri": "https://data.oireachtas.ie/ie/oireachtas/house/dail/33/constituency/Dublin-Mid-West"
+          }
+        },
+        {
+          "constituencyOrPanel": {
+            "representCode": "Dublin-North-West",
+            "representType": "constituency",
+            "showAs": "Dublin North-West",
+            "uri": "https://data.oireachtas.ie/ie/oireachtas/house/dail/33/constituency/Dublin-North-West"
+          }
+        },
+        {
+          "constituencyOrPanel": {
+            "representCode": "Dublin-Rathdown",
+            "representType": "constituency",
+            "showAs": "Dublin Rathdown",
+            "uri": "https://data.oireachtas.ie/ie/oireachtas/house/dail/33/constituency/Dublin-Rathdown"
+          }
+        },
+        {
+          "constituencyOrPanel": {
+            "representCode": "Dublin-South-Central",
+            "representType": "constituency",
+            "showAs": "Dublin South-Central",
+            "uri": "https://data.oireachtas.ie/ie/oireachtas/house/dail/33/constituency/Dublin-South-Central"
+          }
+        },
+        {
+          "constituencyOrPanel": {
+            "representCode": "Dublin-South-West",
+            "representType": "constituency",
+            "showAs": "Dublin South-West",
+            "uri": "https://data.oireachtas.ie/ie/oireachtas/house/dail/33/constituency/Dublin-South-West"
+          }
+        },
+        {
+          "constituencyOrPanel": {
+            "representCode": "Dublin-West",
+            "representType": "constituency",
+            "showAs": "Dublin West",
+            "uri": "https://data.oireachtas.ie/ie/oireachtas/house/dail/33/constituency/Dublin-West"
+          }
+        },
+        {
+          "constituencyOrPanel": {
+            "representCode": "Dún-Laoghaire",
+            "representType": "constituency",
+            "showAs": "Dún Laoghaire",
+            "uri": "https://data.oireachtas.ie/ie/oireachtas/house/dail/33/constituency/Dún-Laoghaire"
+          }
+        },
+        {
+          "constituencyOrPanel": {
+            "representCode": "Galway-East",
+            "representType": "constituency",
+            "showAs": "Galway East",
+            "uri": "https://data.oireachtas.ie/ie/oireachtas/house/dail/33/constituency/Galway-East"
+          }
+        },
+        {
+          "constituencyOrPanel": {
+            "representCode": "Galway-West",
+            "representType": "constituency",
+            "showAs": "Galway West",
+            "uri": "https://data.oireachtas.ie/ie/oireachtas/house/dail/33/constituency/Galway-West"
+          }
+        },
+        {
+          "constituencyOrPanel": {
+            "representCode": "Kerry",
+            "representType": "constituency",
+            "showAs": "Kerry",
+            "uri": "https://data.oireachtas.ie/ie/oireachtas/house/dail/33/constituency/Kerry"
+          }
+        },
+        {
+          "constituencyOrPanel": {
+            "representCode": "Kildare-North",
+            "representType": "constituency",
+            "showAs": "Kildare North",
+            "uri": "https://data.oireachtas.ie/ie/oireachtas/house/dail/33/constituency/Kildare-North"
+          }
+        },
+        {
+          "constituencyOrPanel": {
+            "representCode": "Kildare-South",
+            "representType": "constituency",
+            "showAs": "Kildare South",
+            "uri": "https://data.oireachtas.ie/ie/oireachtas/house/dail/33/constituency/Kildare-South"
+          }
+        },
+        {
+          "constituencyOrPanel": {
+            "representCode": "Laois-Offaly",
+            "representType": "constituency",
+            "showAs": "Laois-Offaly",
+            "uri": "https://data.oireachtas.ie/ie/oireachtas/house/dail/33/constituency/Laois-Offaly"
+          }
+        },
+        {
+          "constituencyOrPanel": {
+            "representCode": "Limerick-City",
+            "representType": "constituency",
+            "showAs": "Limerick City",
+            "uri": "https://data.oireachtas.ie/ie/oireachtas/house/dail/33/constituency/Limerick-City"
+          }
+        },
+        {
+          "constituencyOrPanel": {
+            "representCode": "Limerick-County",
+            "representType": "constituency",
+            "showAs": "Limerick County",
+            "uri": "https://data.oireachtas.ie/ie/oireachtas/house/dail/33/constituency/Limerick-County"
+          }
+        },
+        {
+          "constituencyOrPanel": {
+            "representCode": "Longford-Westmeath",
+            "representType": "constituency",
+            "showAs": "Longford-Westmeath",
+            "uri": "https://data.oireachtas.ie/ie/oireachtas/house/dail/33/constituency/Longford-Westmeath"
+          }
+        },
+        {
+          "constituencyOrPanel": {
+            "representCode": "Louth",
+            "representType": "constituency",
+            "showAs": "Louth",
+            "uri": "https://data.oireachtas.ie/ie/oireachtas/house/dail/33/constituency/Louth"
+          }
+        },
+        {
+          "constituencyOrPanel": {
+            "representCode": "Mayo",
+            "representType": "constituency",
+            "showAs": "Mayo",
+            "uri": "https://data.oireachtas.ie/ie/oireachtas/house/dail/33/constituency/Mayo"
+          }
+        },
+        {
+          "constituencyOrPanel": {
+            "representCode": "Meath-East",
+            "representType": "constituency",
+            "showAs": "Meath East",
+            "uri": "https://data.oireachtas.ie/ie/oireachtas/house/dail/33/constituency/Meath-East"
+          }
+        },
+        {
+          "constituencyOrPanel": {
+            "representCode": "Meath-West",
+            "representType": "constituency",
+            "showAs": "Meath West",
+            "uri": "https://data.oireachtas.ie/ie/oireachtas/house/dail/33/constituency/Meath-West"
+          }
+        },
+        {
+          "constituencyOrPanel": {
+            "representCode": "Roscommon-Galway",
+            "representType": "constituency",
+            "showAs": "Roscommon-Galway",
+            "uri": "https://data.oireachtas.ie/ie/oireachtas/house/dail/33/constituency/Roscommon-Galway"
+          }
+        },
+        {
+          "constituencyOrPanel": {
+            "representCode": "Sligo-Leitrim",
+            "representType": "constituency",
+            "showAs": "Sligo-Leitrim",
+            "uri": "https://data.oireachtas.ie/ie/oireachtas/house/dail/33/constituency/Sligo-Leitrim"
+          }
+        },
+        {
+          "constituencyOrPanel": {
+            "representCode": "Tipperary",
+            "representType": "constituency",
+            "showAs": "Tipperary",
+            "uri": "https://data.oireachtas.ie/ie/oireachtas/house/dail/33/constituency/Tipperary"
+          }
+        },
+        {
+          "constituencyOrPanel": {
+            "representCode": "Waterford",
+            "representType": "constituency",
+            "showAs": "Waterford",
+            "uri": "https://data.oireachtas.ie/ie/oireachtas/house/dail/33/constituency/Waterford"
+          }
+        },
+        {
+          "constituencyOrPanel": {
+            "representCode": "Wexford",
+            "representType": "constituency",
+            "showAs": "Wexford",
+            "uri": "https://data.oireachtas.ie/ie/oireachtas/house/dail/33/constituency/Wexford"
+          }
+        },
+        {
+          "constituencyOrPanel": {
+            "representCode": "Wicklow",
+            "representType": "constituency",
+            "showAs": "Wicklow",
+            "uri": "https://data.oireachtas.ie/ie/oireachtas/house/dail/33/constituency/Wicklow"
+          }
+        }
+      ],
+      "house": {
+        "houseCode": "dail",
+        "houseNo": "33",
+        "showAs": "33rd Dáil",
+        "uri": "https://data.oireachtas.ie/ie/oireachtas/house/dail/33"
+      }
+    }
+  }
+}
