@@ -201,7 +201,5 @@ module.exports = {
     'node/process-exit-as-throw': 'error',
 
     'promise/param-names': 'error',
-
-    'standard/no-callback-literal': 'error'
-  }
+  },
 };

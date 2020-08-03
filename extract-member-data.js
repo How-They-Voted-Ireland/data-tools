@@ -15,11 +15,11 @@ const members = data.results.map(({ member }) => {
   } = member;
 
   const dailMembership = memberships.find(
-    ({ membership }) => membership.house.houseCode === 'dail'
+    ({ membership }) => membership.house.houseCode === 'dail',
   );
 
   const represents = dailMembership.membership.represents.find(
-    ({ represent }) => represent.representType === 'constituency'
+    ({ represent }) => represent.representType === 'constituency',
   );
 
   const party = dailMembership.membership.parties[0].party;
