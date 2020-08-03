@@ -1,8 +1,8 @@
-const fs = require("fs");
-const puppeteer = require("puppeteer");
+const fs = require('fs');
+const puppeteer = require('puppeteer');
 
 const url =
-  "https://www.oireachtas.ie/en/debates/votes/?datePeriod=dates&voteResultType=all&debateType=dail&toDate=02%2F08%2F2020&fromDate=01%2F01%2F2020&resultsPerPage=100";
+  'https://www.oireachtas.ie/en/debates/votes/?datePeriod=dates&voteResultType=all&debateType=dail&toDate=02%2F08%2F2020&fromDate=01%2F01%2F2020&resultsPerPage=100';
 
 // { slowMo: 500, headless: false }
 
@@ -13,58 +13,58 @@ const url =
 
   const data = await page.evaluate(async () => {
     const voteSections = Array.from(
-      document.querySelectorAll("div.c-votes-list div.c-votes-list__item")
+      document.querySelectorAll('div.c-votes-list div.c-votes-list__item')
     );
-    let voteDetails = [];
+    const voteDetails = [];
 
-    for (let section of voteSections) {
+    for (const section of voteSections) {
       const voteDetailUrl = section
-        .querySelector(".c-votes-list__link")
-        .getAttribute("href");
+        .querySelector('.c-votes-list__link')
+        .getAttribute('href');
 
       voteDetails.push({
-        date: section.querySelector(".c-votes-list__date").innerHTML.trim(),
-        house: section.querySelector(".c-votes-list__house").innerHTML.trim(),
-        title: section.querySelector(".c-votes-list__title").innerHTML.trim(),
-        description: section.querySelector(".c-votes-list__description")
+        date: section.querySelector('.c-votes-list__date').innerHTML.trim(),
+        house: section.querySelector('.c-votes-list__house').innerHTML.trim(),
+        title: section.querySelector('.c-votes-list__title').innerHTML.trim(),
+        description: section.querySelector('.c-votes-list__description')
           .innerHTML,
-        status: section.querySelector(".c-votes-list__status").innerHTML.trim(),
-        detailLink: voteDetailUrl,
+        status: section.querySelector('.c-votes-list__status').innerHTML.trim(),
+        detailLink: voteDetailUrl
       });
     }
 
     return voteDetails;
   });
 
-  for (let item of data) {
+  for (const item of data) {
     const link = `https://www.oireachtas.ie${item.detailLink}`;
     await page.goto(link);
 
-    await page.click(".c-vote-detail-toggle__link");
+    await page.click('.c-vote-detail-toggle__link');
 
     item.voteDetails = await page.evaluate(() => {
       const resultsSection = Array.from(
-        document.querySelectorAll(".c-vote-detail-voters-list__result")
+        document.querySelectorAll('.c-vote-detail-voters-list__result')
       );
 
       return resultsSection.map((result) => {
         const membersList = Array.from(
-          result.querySelectorAll(".c-vote-detail-voters-list__member ")
+          result.querySelectorAll('.c-vote-detail-voters-list__member ')
         );
         const members = membersList.map((member) => ({
           fullName: member
-            .querySelector(".c-vote-detail-voters-list__member-link")
+            .querySelector('.c-vote-detail-voters-list__member-link')
             .innerHTML.trim(),
           link: member
-            .querySelector(".c-vote-detail-voters-list__member-link")
-            .getAttribute("href"),
+            .querySelector('.c-vote-detail-voters-list__member-link')
+            .getAttribute('href')
         }));
 
         return {
           members,
           choice: result
-            .querySelector(".c-vote-detail-voters-list__sub-title")
-            .innerHTML.trim(),
+            .querySelector('.c-vote-detail-voters-list__sub-title')
+            .innerHTML.trim()
         };
       });
     });
@@ -76,7 +76,7 @@ const url =
 
   console.log(result);
   fs.writeFileSync(
-    "../scraped-data/33-dail-votes-01012020-02082020.js",
+    '../scraped-data/33-dail-votes-01012020-02082020.js',
     result
   );
 })();
