@@ -1,9 +1,7 @@
-const fs = require("fs");
+const fs = require('fs');
 
 const file = process.argv[2];
-
-const json = fs.readFileSync(file, "utf-8");
-
+const json = fs.readFileSync(file, 'utf-8');
 const data = JSON.parse(json);
 
 const members = data.results.map(({ member }) => {
@@ -17,11 +15,11 @@ const members = data.results.map(({ member }) => {
   } = member;
 
   const dailMembership = memberships.find(
-    ({ membership }) => membership.house.houseCode === "dail"
+    ({ membership }) => membership.house.houseCode === 'dail'
   );
-  // console.log(dailMembership);
+
   const represents = dailMembership.membership.represents.find(
-    ({ represent }) => represent.representType === "constituency"
+    ({ represent }) => represent.representType === 'constituency'
   );
 
   const party = dailMembership.membership.parties[0].party;
@@ -48,4 +46,4 @@ const members = data.results.map(({ member }) => {
 
 const result = JSON.stringify(members, null, 2);
 
-fs.writeFileSync("normalised-data/33-dail-members.js", result);
+fs.writeFileSync('normalised-data/33-dail-members.js', result);

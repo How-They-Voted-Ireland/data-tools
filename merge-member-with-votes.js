@@ -9,10 +9,13 @@ const votesJson = fs.readFileSync(votes, 'utf-8');
 const membersData = JSON.parse(membersJson);
 const votesData = JSON.parse(votesJson);
 
+const membersObject = {};
+
 for (const member of membersData) {
   member.voting = votesData[member.memberCode];
+  membersObject[member.memberCode] = member;
 }
 
-const result = JSON.stringify(membersData, null, 2);
+const result = JSON.stringify(membersObject, null, 2);
 
 fs.writeFileSync(`normalised-data/${output}`, result);
