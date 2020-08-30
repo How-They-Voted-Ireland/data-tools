@@ -2,25 +2,25 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 2020,
     ecmaFeatures: {
-      jsx: false
+      jsx: false,
     },
-    sourceType: 'module'
+    sourceType: 'module',
   },
 
   env: {
     es6: true,
-    node: true
+    node: true,
   },
 
   plugins: [
     'import',
     'node',
-    'promise'
+    'promise',
   ],
   globals: {
     document: 'readonly',
     navigator: 'readonly',
-    window: 'readonly'
+    window: 'readonly',
   },
 
   rules: {
@@ -56,7 +56,7 @@ module.exports = {
       ImportDeclaration: 1,
       flatTernaryExpressions: false,
       ignoreComments: false,
-      ignoredNodes: ['TemplateLiteral *']
+      ignoredNodes: ['TemplateLiteral *'],
     }],
     'key-spacing': ['error', { beforeColon: false, afterColon: true }],
     'keyword-spacing': ['error', { before: true, after: true }],
@@ -105,9 +105,9 @@ module.exports = {
       groups: [
         ['==', '!=', '===', '!==', '>', '>=', '<', '<='],
         ['&&', '||'],
-        ['in', 'instanceof']
+        ['in', 'instanceof'],
       ],
-      allowSamePrecedence: true
+      allowSamePrecedence: true,
     }],
     'no-mixed-spaces-and-tabs': 'error',
     'no-multi-spaces': 'error',

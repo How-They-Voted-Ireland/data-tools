@@ -12,8 +12,7 @@ const votesData = JSON.parse(votesJson);
 const membersObject = {};
 
 for (const member of membersData) {
-  member.voting = votesData[member.memberCode];
-  membersObject[member.memberCode] = member;
+  membersObject[member.memberCode] = votesData[member.memberCode];
 }
 
 const result = JSON.stringify(membersObject, null, 2);
