@@ -2,6 +2,17 @@
 Tools to pull and transform the data from the oireachtas API
 
 ## Approach
+
+Use divisions API to get voting data.
+
+Mix that with TD info.
+
+Want to also Merge this into the debates but need to look at the approach fro this as the XML isn't easy to work with.
+
+## Old Approach
+
+This approach isn't going to work - parsing the XML is problematic (technically OK to do but format is quite complex to traverse reliably). Will use the Divisions endpoint on the API for votes and marry that with the some of ther other data. Will still need to scrape debate content.
+
 Cron job runs deploy/nightly each week night at 23:30. This script:
 
 1. Pulls all votes for a time period - `startDate`, `endDate` (format yyyy-mm-dd)
